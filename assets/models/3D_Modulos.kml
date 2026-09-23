@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>3D_Modulos.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>3D</name>
+		<Document>
+			<name>3D MÓDULO HÁBITAT.kmz</name>
+			<StyleMap id="m_ylw-pushpin">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="s_ylw-pushpin">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Placemark>
+				<name>3D MÓDULO HÁBITAT</name>
+				<LookAt>
+					<longitude>-75.52228982197261</longitude>
+					<latitude>5.122207394730497</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>45</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Model id="model_1">
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<Location>
+						<longitude>-75.57991336568331</longitude>
+						<latitude>5.043843775822102</latitude>
+						<altitude>0</altitude>
+					</Location>
+					<Orientation>
+						<heading>-83.21638228085352</heading>
+						<tilt>0</tilt>
+						<roll>0</roll>
+					</Orientation>
+					<Scale>
+						<x>2.132304859059099</x>
+						<y>2.132046696528985</y>
+						<z>2.132175777794042</z>
+					</Scale>
+					<Link>
+						<href>260920_MÓDULO HÁBITAT 3D.dae</href>
+					</Link>
+					<ResourceMap>
+						<Alias>
+							<targetHref>BAMBOO.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/BAMBOO.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Blinds_Wood_Bamboo.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Blinds_Wood_Bamboo.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Blinds_Wood_Bamboo_1.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Blinds_Wood_Bamboo_1.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Cladding_Stucco_White.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Cladding_Stucco_White.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Cladding_Stucco_White_4.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Cladding_Stucco_White_4.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Concrete_Form_4x8.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Concrete_Form_4x8.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Concrete_Form_4x8_0.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Concrete_Form_4x8_0.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>DECK.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/DECK.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>DECK_2.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/DECK_2.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Fencing_Mesh_Blue.png</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Fencing_Mesh_Blue.png</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Stone_Pavers_Walk.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Stone_Pavers_Walk.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Stone_Vein_Gray.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Stone_Vein_Gray.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Wood_Floor_Light.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Wood_Floor_Light.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Wood__Floor.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Wood__Floor.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>Wood__Floor_5.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/Wood__Floor_5.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>atapkelapa1.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/atapkelapa1.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>bambooB3.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/bambooB3.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>bambooB3_0.jpg</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/bambooB3_0.jpg</sourceHref>
+						</Alias>
+						<Alias>
+							<targetHref>texture.png</targetHref>
+							<sourceHref>260920_MÓDULO HÁBITAT 3D/texture.png</sourceHref>
+						</Alias>
+					</ResourceMap>
+				</Model>
+			</Placemark>
+		</Document>
+		<Placemark>
+			<name>Modelo sin título</name>
+			<LookAt>
+				<longitude>-75.57884550246285</longitude>
+				<latitude>5.047676128640797</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>45</tilt>
+				<range>1000</range>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Model id="model_1">
+				<Location>
+					<longitude>-75.58049543528719</longitude>
+					<latitude>5.044452449707013</latitude>
+					<altitude>0</altitude>
+				</Location>
+				<Orientation>
+					<heading>-21.49732511687546</heading>
+					<tilt>0</tilt>
+					<roll>0</roll>
+				</Orientation>
+				<Scale>
+					<x>2.024298546631456</x>
+					<y>2.024288776159809</y>
+					<z>2.024293661395633</z>
+				</Scale>
+				<Link>
+					<href>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D.dae</href>
+				</Link>
+				<ResourceMap>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/BAMBOO.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/BAMBOO.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/BAMBOO_0.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/BAMBOO_0.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/BAMBOO_CLARO.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/BAMBOO_CLARO.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/DECK.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/DECK.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/DECK_2.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/DECK_2.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/Metal_Rough.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/Metal_Rough.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/Wood__Floor.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/Wood__Floor.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/__Concrete_Form_4x8_1.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/__Concrete_Form_4x8_1.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/atapkelapa1.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/atapkelapa1.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/bambooB3.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/bambooB3.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_TORRE MIRADOR_3D/bambooB3_1.jpg</targetHref>
+						<sourceHref>260920_TORRE MIRADOR_3D/bambooB3_1.jpg</sourceHref>
+					</Alias>
+				</ResourceMap>
+			</Model>
+		</Placemark>
+		<Placemark>
+			<name>Modelo sin título</name>
+			<LookAt>
+				<longitude>-75.57920694472168</longitude>
+				<latitude>5.045321887215778</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>45</tilt>
+				<range>1000</range>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Model id="model_2">
+				<Location>
+					<longitude>-75.58096295209961</longitude>
+					<latitude>5.044350446637274</latitude>
+					<altitude>0</altitude>
+				</Location>
+				<Orientation>
+					<heading>-19.74855288177851</heading>
+					<tilt>0</tilt>
+					<roll>0</roll>
+				</Orientation>
+				<Scale>
+					<x>2.394238802164304</x>
+					<y>2.39423468414744</y>
+					<z>2.394236743155871</z>
+				</Scale>
+				<Link>
+					<href>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D.dae</href>
+				</Link>
+				<ResourceMap>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/BAMBOO.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/BAMBOO.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Blinds_Wood_Bamboo.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Blinds_Wood_Bamboo.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Blinds_Wood_Bamboo_1.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Blinds_Wood_Bamboo_1.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Cladding_Stucco_White.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Cladding_Stucco_White.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Cladding_Stucco_White_4.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Cladding_Stucco_White_4.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Concrete_Form_4x8.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Concrete_Form_4x8.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Concrete_Form_4x8_0.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Concrete_Form_4x8_0.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/DECK.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/DECK.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/DECK_2.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/DECK_2.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Stone_Pavers_Walk.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Stone_Pavers_Walk.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Stone_Vein_Gray.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Stone_Vein_Gray.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Wood_Floor_Light.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Wood_Floor_Light.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Wood__Floor.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Wood__Floor.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/Wood__Floor_5.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/Wood__Floor_5.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/atapkelapa1.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/atapkelapa1.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/bambooB3.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/bambooB3.jpg</sourceHref>
+					</Alias>
+					<Alias>
+						<targetHref>C:/Users/Karen/Downloads/260920_MÓDULO HÁBITAT 3D/bambooB3_0.jpg</targetHref>
+						<sourceHref>260920_MÓDULO HÁBITAT 3D/bambooB3_0.jpg</sourceHref>
+					</Alias>
+				</ResourceMap>
+			</Model>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	</Folder>
+</Document>
+</kml>
