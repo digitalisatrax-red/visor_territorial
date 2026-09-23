@@ -1,0 +1,4 @@
+# Insumos de gran volumen: no se publican en GitHub normal
+ArcGIS_Corpocaldas_Completo/
+*.qgz
+*.aux.xml
