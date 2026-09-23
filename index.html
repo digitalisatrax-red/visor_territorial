@@ -43,7 +43,7 @@
     .status{position:absolute;z-index:1000;left:18px;bottom:18px;background:#082b24ef;border:1px solid #3e796a;border-radius:10px;padding:11px 13px;font-size:12px}
     .status.error{border-color:#ef8b72;color:#ffd6ca}
     .legend{position:absolute;z-index:700;right:18px;bottom:18px;background:#082b24ef;border:1px solid #3e796a;border-radius:10px;padding:11px 13px;font-size:12px}
-    .tour{height:100%;background:linear-gradient(0deg,#031612bb,#0000 62%),url("assets/vuelo_la_floresta.png") center/cover;position:relative}
+    .tour{height:100%;background:#061b17;position:relative;overflow:hidden}.sceneImage{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}.sceneImage.active{display:block}.scene,.tourinfo{z-index:3}
     .scene{position:absolute;right:18px;top:18px;background:#082b24ec;border:1px solid #3e796a;border-radius:10px;padding:4px}
     .tourinfo{position:absolute;left:18px;bottom:18px;max-width:360px;background:#082b24ec;border:1px solid #3e796a;border-radius:12px;padding:15px}
     .tourinfo b{display:block;font-size:17px;margin-bottom:4px}
@@ -114,7 +114,7 @@
 
     <section id="tour" class="view">
       <div class="tour" id="tour">
-        <div class="scene">
+        <img class="sceneImage active" data-photo="vuelo" src="assets/vuelo_la_floresta.png" alt="Vista aérea del predio"><img class="sceneImage" data-photo="sala" src="assets/casa_sala.png" alt="Sala sostenible"><img class="sceneImage" data-photo="habitacion" src="assets/casa_habitacion.png" alt="Habitación ecológica"><div class="scene">
           <button class="active" data-scene="vuelo">Vuelo</button>
           <button data-scene="sala">Sala</button>
           <button data-scene="habitacion">Habitación</button>
@@ -362,5 +362,16 @@ document.getElementById("base").addEventListener("change",e=>{
 
 init2();
 </script>
-</body>
+<script>
+(function(){
+  function mostrarEscena(nombre){
+    document.querySelectorAll('[data-photo]').forEach(function(imagen){
+      imagen.classList.toggle('active', imagen.dataset.photo === nombre);
+    });
+  }
+  document.querySelectorAll('[data-scene]').forEach(function(boton){
+    boton.addEventListener('click', function(){ mostrarEscena(boton.dataset.scene); });
+  });
+})();
+</script></body>
 </html>
