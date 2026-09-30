@@ -1,6 +1,6 @@
-# Visor Territorial — La Floresta
+# Visor Territorial — 
 
-Visor geográfico 2D y 3D del predio La Floresta, Chinchiná, Caldas.
+Visor geográfico 2D y 3D 
 
 ## Abrir localmente
 
